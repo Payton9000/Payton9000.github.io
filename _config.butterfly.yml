@@ -18,6 +18,7 @@ nav:
 # Code Blocks (代碼相關)
 # --------------------------------------
 
+
 highlight_theme: light #  darker / pale night / light / ocean / mac / mac light / false
 highlight_copy: true # copy button
 highlight_lang: true # show the code language
@@ -167,8 +168,8 @@ wordcount:
 # 3: auto_excerpt (default)
 # false: do not show the article introduction
 index_post_content:
-  method: 3
-  length: 500 # if you set method to 2 or 3, the length need to config
+  method: 2
+  length: 200 # if you set method to 2 or 3, the length need to config
 
 # anchor
 anchor:
