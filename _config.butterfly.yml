@@ -11,7 +11,7 @@ menu:
   关于: /about/ || fas fa-heart
 
 nav:
-  logo: # image
+  logo: https://cloudimge.com/image/YeNpR
   display_title: true
   fixed: true # fixed navigation bar
 
