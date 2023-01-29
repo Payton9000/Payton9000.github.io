@@ -78,7 +78,8 @@ katex:
 # --------------------------------------
 
 # Favicon（網站圖標）
-favicon: /img/favicon.png
+#favicon: /img/favicon.png
+favicon: https://pic.imgdb.cn/item/63d672eeface21e9ef1314c3.jpg
 
 # Avatar (頭像)
 avatar:
