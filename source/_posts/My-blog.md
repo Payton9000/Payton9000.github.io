@@ -1,5 +1,4 @@
 ---
-title: My blogs
+title: Second
 ---
-This is my blog 
-wow
+Fight!!!
