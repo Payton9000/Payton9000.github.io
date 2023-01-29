@@ -11,7 +11,7 @@ menu:
   关于: /about/ || fas fa-heart
 
 nav:
-  logo: https://pic.imgdb.cn/item/63d672eeface21e9ef1314c3.jpg
+  logo: https://pic.imgdb.cn/item/63d67356face21e9ef13f4ce.png
   display_title: true
   fixed: true # fixed navigation bar
 
@@ -827,7 +827,7 @@ snackbar:
 
 # https://instant.page/
 # prefetch (預加載)
-instantpage: false
+instantpage: true
 
 # https://github.com/vinta/pangu.js
 # Insert a space between Chinese character and English character (中英文之間添加空格)
