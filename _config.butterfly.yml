@@ -4,10 +4,10 @@
 
 menu:
   首页: / || fas fa-home
-  历史演变: /archives/ || fas fa-archive
-  标签: /tags/ || fas fa-tags
+  传承与创新: /historyAndCreative/ || fas fa-tags
+  作品集: /archives/ || fas fa-archive
   分类: /categories/ || fas fa-folder-open
-  友链: /link/ || fas fa-link
+  学习: /study/ || fas fa-link
   关于: /about/ || fas fa-heart
 
 nav:
