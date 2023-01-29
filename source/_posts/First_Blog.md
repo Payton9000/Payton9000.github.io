@@ -12,23 +12,25 @@ const int N=100010;
 int n,m;
 int h[N],e[N],ne[N],idx;
 int d[N];
-vector<int> q;
-void add(int a,intb){
-    e[idx]=b;
-    ne[idx]=h[a];
-    h[a]=idx++;
+void add(int a, int b)
+{
+    e[idx] = b, ne[idx] = h[a], h[a] = idx ++ ;
 }
 int bfs(){
-    memset(h,-1,sizeof(h));
+    //memset(h, -1, sizeof h); //WA
+    memset(d,-1,sizeof d); //AC
+    queue<int> q;
     q.push(1);
     d[1]=0;
-    while(!q.empty()){
-        auto t=q.front();
+    // d[1] = 0;
+    // q.push(1);
+    while(q.size()){
+        int t=q.front();
         q.pop();
         for(int i=h[t];i!=-1;i=ne[i]){
             int j=e[i];
             if(d[j]==-1){
-                d[j]=d[i]+1;
+                d[j]=d[t]+1;
                 q.push(j);
             }
         }
@@ -36,14 +38,17 @@ int bfs(){
     return d[n];
 }
 int main(){
-    cin>>n>>m;
-    memset(d,-1,sizeof(d));
-    for(int i=0;i<m;i++){
-        int a,b;
-        cin>>a>>b;
-        add(a,b);
+    scanf("%d%d", &n, &m);
+    memset(h, -1, sizeof h);//AC
+    //memset(d,-1,sizeof d);//TLE
+    for (int i = 0; i < m; i ++ )
+    {
+        int a, b;
+        scanf("%d%d", &a, &b);
+        add(a, b);
     }
-    cout<<bfs()<<endl;
+
+    cout << bfs() << endl;
     return 0;
 }
 ```
