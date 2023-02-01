@@ -11,7 +11,7 @@ menu:
   关于: /about/ || fas fa-heart
 
 nav:
-  logo: https://pic.imgdb.cn/item/63d67356face21e9ef13f4ce.png
+  logo: https://pic.imgdb.cn/item/63da5fe9ac6ef8601679b0b6.jpg
   display_title: true
   fixed: true # fixed navigation bar
 
@@ -80,11 +80,11 @@ katex:
 
 # Favicon（網站圖標）
 #favicon: /img/favicon.png
-favicon: https://pic.imgdb.cn/item/63d672eeface21e9ef1314c3.jpg
+favicon: https://pic.imgdb.cn/item/63da5fe9ac6ef8601679b0b6.jpg
 
 # Avatar (頭像)
 avatar:
-  img: https://pic.imgdb.cn/item/63d672eeface21e9ef1314c3.jpg
+  img: https://pic.imgdb.cn/item/63da5fe9ac6ef8601679b0b6.jpg
   effect: false
 
 # Disable all banner image
@@ -94,10 +94,10 @@ disable_top_img: false
 index_img: https://s1.ax1x.com/2023/01/29/pSac97d.jpg
 
 # If the banner of page not setting, it will show the top_img
-default_top_img:
+default_top_img: https://s1.ax1x.com/2023/01/29/pSac97d.jpg
 
 # The banner image of archive page
-archive_img:
+archive_img: https://s1.ax1x.com/2023/01/29/pSac97d.jpg
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
